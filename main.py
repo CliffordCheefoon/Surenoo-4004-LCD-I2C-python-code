@@ -8,7 +8,7 @@ from charlcd.drivers.i2cm import I2C as I2CM
 i2cm_interface = I2CM(0x27, 1)
 
 #To make the second half of the screen addressible, we need to define that E2 (Enable 2) should address PIN 1.
-#This is because the second half of the screen is controlled by a different enable pin than the default one. 
+#This is because the second half of the screen is controlled by a different LCD controller than the default one. 
 i2cm_interface.pins['E2'] = 1
 
 lcd_writer = lcd.CharLCD(40, 4, i2cm_interface, 0, 0)
