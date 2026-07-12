@@ -1,4 +1,4 @@
-# Surenoo-4004-LCD-python-code
+# Surenoo-4004-LCD-I2C-python-code
 
 ## Overview
 This repository contains Python code to drive the Surenoo 4004 LCD module paired with the PCF8574T I²C backpack (I²C port expander).
